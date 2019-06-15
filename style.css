@@ -1,0 +1,57 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    color: #555;
+    font-family: sans-serif;
+    background: white;
+}
+
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+    max-width: 520px;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Pacifico",cursive;
+    font-size: 20px;
+    margin: 16px 24px 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: .14em;
+    color: rgba(130, 130, 130, .57);
+    transition: color 140ms cubic-bezier(.33,0,.2,1);
+}
+
+h1:hover, h1:active{
+    color: rgb(130, 130, 130);
+}
+
+#video {
+    border: 1px solid #999;
+    width: 98%;
+    max-width: 860px;
+}
+
+button {
+    border: 2px solid #555;
+    padding: 12px 16px;
+    color: inherit;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 140ms cubic-bezier(.33,0,.2,1);
+    margin-bottom: 12px;
+}
+
+button:hover {
+    background: #555;
+    color: white;
+}
